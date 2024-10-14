@@ -28,13 +28,13 @@ To run the website locally, follow these steps:
 ```sql
 CREATE TABLE cvs (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(50) NOT NULL,
+    username VARCHAR(50) NOT NULL,
     email VARCHAR(100) NOT NULL,
     password VARCHAR(255) NOT NULL,
     keyprogramming VARCHAR(100) NOT NULL,
     profile TEXT NOT NULL,
     education TEXT NOT NULL,
-    URLlinks VARCHAR(255) NOT NULL
+    url VARCHAR(255) NOT NULL
 );
 ```
 
