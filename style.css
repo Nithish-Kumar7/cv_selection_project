@@ -1,0 +1,145 @@
+/* General styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8; /* Soft light background */
+  color: #333;
+  line-height: 1.6; /* Improved readability */
+}
+
+header {
+  background-color: #222; /* Darker header for contrast */
+  color: black;
+  padding: 15px 0; /* Increased padding for better spacing */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.search-heading {
+  font-size: 15px;
+  color: black; /* Black color */
+  font-family: 'Montserrat';
+}
+
+
+.main-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Added horizontal padding */
+}
+
+.nav_links {
+  list-style: none;
+  padding: 0;
+}
+
+.nav_links li {
+  display: inline;
+  margin-right: 30px; /* Increased margin for better spacing */
+}
+
+.nav_links a {
+  color: #fff; /* White links for contrast */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s, transform 0.3s; /* Added transform for hover effect */
+}
+
+.nav_links a:hover {
+  color: #00F95B; /* Green hover color */
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+h2 {
+  color: rgb(102, 139, 170);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-size: 2em; /* Increased font size for prominence */
+  margin: 20px 0; /* Spacing around the heading */
+}
+
+form {
+  margin: 20px auto; /* Centered form */
+  padding: 30px; /* Increased padding for a spacious look */
+  background: white;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Deeper shadow */
+  max-width: 400px; /* Limited form width for better focus */
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="reset"] {
+  width: 100%;
+  padding: 12px; /* Increased padding for comfort */
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s; /* Transition for border color */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #00F95B; /* Highlight border color on focus */
+}
+
+input[type="submit"],
+input[type="reset"] {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s; /* Added transform */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #00F95B; /* Green hover background */
+  transform: scale(1.05); /* Slight scale on hover */
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 15px; /* Increased padding for better spacing */
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: rgb(102, 139, 170);
+}
+
+/* Alert messages */
+p {
+  color: black;
+  font-size: 14px;
+}
+
+.error-message {
+  color: #D81E3D; /* Error message color */
+  font-weight: bold; /* Emphasized error message */
+}
+
+.success-message {
+  color: #00F95B; /* Success message color */
+  font-weight: bold; /* Emphasized success message */
+}
+.p-heading{text-align: center; /* Center the text */
+  margin: 20px 0;}
+
+.reg_user{
+  text-align: center; /* Center the text */
+  margin: 20px 0;
+}
